@@ -1,14 +1,51 @@
 <html>
 	<head>
-		<title> Cécile Robert-Michon </title>
+		<title> Cecile Robert-Michon </title>
+
+		<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/foundation.css">
+
+		<script type="text/javascript">
+
+			function hello(){
+				alert("Hello there!");
+			}
+
+		</script>
+
 	</head>
 	<body>
-		U2 Student in Software Engineering at McGill University
+		<div class='row'>
+			<h2>Cecile's webpage</h2>
+			<div class='panel'>
+				U2 Student in Software Engineering at McGill University
+			</div>
 
-		Here is a list of my interests:
-		<ul>
-			<li>Basketball</li>
-			<li>Literature</li>
-		</ul>
+				<p>Here is a list of my interests:</p>
+				<ul>
+					<li id='special-list-item'>Basketball</li>
+					<li class='purple'>Literature</li>
+					<li class='purple'>Cooking</li>
+				</ul>
+				<div class="large-3 columns">
+					<h5> Programming </h5>
+				</div>
+
+				<div class="large-3 columns">
+					<h5> Math </h5>
+				</div>
+
+				<div class="large-3 columns">
+					<h5> Technology </h5>
+				</div>
+
+				<div class="large-3 columns">
+					<h5> Art </h5>
+				</div>
+
+				<div class='row' id='hello-button-row'>
+					<a class='large radius button' id='hello-button' onclick="hello()"> Say Hello! </a>
+				</div>
+		</div>
 	</body>
 </html>

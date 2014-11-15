@@ -1,0 +1,27 @@
+body {
+	background-color: #626262;
+	color: #FFFFFF;
+}
+
+h2{
+	color: #FFFFFF;
+}
+li#special-list-item{
+	color: #C93040;
+}
+
+li,purple{
+	color: #6600CC;
+}
+
+div#hello-button-row{
+	padding-top: 100px;
+}
+
+#hello-button{
+	width: 200px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+}
